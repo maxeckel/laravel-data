@@ -31,6 +31,7 @@ class DataCollection implements DataCollectable, ArrayAccess
     use IncludeableData;
     use WrappableData;
     use TransformableData;
+    /** @use EnumerableMethods<TKey, TValue> */
     use EnumerableMethods;
 
     /** @var Enumerable<TKey, TValue> */
